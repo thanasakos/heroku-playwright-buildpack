@@ -112,7 +112,7 @@ export_env_dir() {
   fi
 }
 
-export_env_dir "$ENV_DIR" PLAYWRIGHT_BUILDPACK_BROWSERS
-install_system_deps
-configure_export_env
+#export_env_dir "$ENV_DIR" PLAYWRIGHT_BUILDPACK_BROWSERS
+#install_system_deps
+#configure_export_env
 python -m playwright install
